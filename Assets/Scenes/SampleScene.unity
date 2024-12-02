@@ -136,15 +136,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158437498081183913, guid: 2bde6d77379528d44be6d358f52760de, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.999
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 1158437498081183913, guid: 2bde6d77379528d44be6d358f52760de, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.014
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1158437498081183913, guid: 2bde6d77379528d44be6d358f52760de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.196
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1158437498081183913, guid: 2bde6d77379528d44be6d358f52760de, type: 3}
       propertyPath: m_LocalRotation.w
@@ -383,13 +383,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xBounds: 13
-  yBounds: 8
-  tablerb: {fileID: 1464423652}
+  yBounds: 6
   straightPiece: {fileID: 6154915064326079766, guid: 2bde6d77379528d44be6d358f52760de, type: 3}
   leftPiece: {fileID: 4517272327063754296, guid: 55613e6a756e14c4bb32d70d86c9aaae, type: 3}
   rightPiece: {fileID: 6866402874581375186, guid: 91059c9972c53e14ca32911c3cb9c3f1, type: 3}
-  upPiece: {fileID: 7865282746000993715, guid: 0f85e6dab5dc79842b215b15c8014c8d, type: 3}
-  downPiece: {fileID: 7016226747732852865, guid: 0a69be85bbdb3e948aa533f5afb37f48, type: 3}
+  upPiece: {fileID: 7016226747732852865, guid: 0a69be85bbdb3e948aa533f5afb37f48, type: 3}
+  downPiece: {fileID: 7865282746000993715, guid: 0f85e6dab5dc79842b215b15c8014c8d, type: 3}
   stopPiece: {fileID: 4909204544979616034, guid: dd6f056bdee6e91468b3e7fb1e03b229, type: 3}
   track:
   - {fileID: 2095674743}
