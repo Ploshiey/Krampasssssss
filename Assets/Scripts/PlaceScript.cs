@@ -18,8 +18,10 @@ public class PlaceScript : MonoBehaviour
     public GameObject downPiece;
     public GameObject stopPiece;
 
+    public GameObject train;
     public GameObject[] track;
     private int trackCount;
+    private int temp = 0;
     void Start()
     {
 
@@ -97,6 +99,29 @@ public class PlaceScript : MonoBehaviour
                     Destroy(track[trackCount]);
                     trackCount--;
                 }
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            trainMove();
+        }
+    }
+
+
+    private void trainMove()
+    {
+        bool Out = false;
+        while (!Out)
+        {
+            train.transform.position = new Vector3(track[temp].transform.position.x - train.transform.position.x, track[temp].transform.position.y - train.transform.position.y, 0f);
+            if (train.transform.position == track[temp].transform.position && track[temp] != null)
+            {
+                temp++;
+            }
+            else if (track[temp] == null)
+            {
+                Out = true;
             }
         }
     }
